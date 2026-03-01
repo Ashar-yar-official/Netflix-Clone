@@ -1,0 +1,268 @@
+body {
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-image: url('https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media//banner.jpg');
+    height: 900px;
+}
+
+.header-1 {
+    display: flex;
+}
+
+.header-1 button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    margin-top: 20px;
+    margin-left: 1150px;
+    background-color: red;
+    padding: 12px;
+    border-radius: 6px;
+    color: white;
+    width: 95px;
+}
+
+.header-1 button:hover {
+    background-color: rgb(95, 24, 24);
+    cursor: pointer;
+}
+
+.header-1 img {
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 150px;
+}
+
+.header-2 {
+    color: white;
+    margin: 345px;
+    margin-top: 275px;
+}
+
+.header-2 h1 {
+    font-size: 82px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.header-2 h5 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: -40px;
+}
+
+.header-2 p {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.header-3 {
+    display: flex;
+    margin-top: -320px;
+    justify-content: center;
+}
+
+.add-email {
+    box-sizing: border-box;
+    border: none;
+    padding: 24px;
+    width: 480px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border: white;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+}
+
+.header-3 button {
+    padding: 16px;
+    background-color: red;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-left: 35px;
+    border-radius: 6px;
+    border: none;
+    width: 220px;
+    font-size: 26px;
+}
+
+.header-3 button:hover {
+    background-color: rgb(95, 24, 24);
+    cursor: pointer;
+}
+
+.main-body {
+    margin-top: 85px;
+    margin-right: 140px;
+    margin-left: 140px;
+}
+
+.movies-link {
+    display: flex;
+}
+
+.movies-link img {
+    width: 180px;
+    height: 320px;
+    border-radius: 8px;
+    margin: 30px;
+}
+
+.movies-link img:hover {
+
+    animation: grow;
+    animation-duration: 2s;
+}
+
+@keyframes grow {
+    50% {
+        transform: scale(2, 2)
+    }
+}
+
+.movies-link p {
+    font-size: 52px;
+    text-align: left;
+    margin-top: -175px;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: 2px 2px red;
+}
+
+.more-reason-area h1 {
+    margin-top: 125px;
+}
+
+.more-reasons {
+    display: flex;
+}
+
+.more-reason-1 {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/006/631/818/original/abstract-de-focused-blue-purple-light-leak-gradient-free-video.jpg');
+    margin: 10px;
+    border-radius: 8px;
+    padding: 11px;
+    width: 260px;
+
+}
+
+.more-reason-1 p {
+    color: rgb(178, 176, 176);
+}
+
+i {
+    font-size: 50px;
+    margin-left: 200px;
+    margin-top: 45px;
+}
+
+.questions-section {
+    font-size: 18px;
+}
+
+.qn-part {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    background-color: rgb(75, 75, 75);
+    margin-bottom: 15px;
+
+}
+
+.footer-email {
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.footer-email-text {
+    margin-top: 125px;
+    text-align: center;
+}
+
+.start-email {
+    box-sizing: border-box;
+    padding: 24px;
+    width: 480px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border: 2px 2px white;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+}
+
+.footer-email button {
+    padding: 16px;
+    background-color: red;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-left: 35px;
+    border-radius: 6px;
+    border: none;
+    width: 220px;
+    font-size: 26px;
+}
+
+.footer-email button:hover {
+    background-color: rgb(95, 24, 24);
+    cursor: pointer;
+}
+
+.links-footer {
+    display: flex;
+    margin-top: 40px;
+}
+
+.main-body a {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: rgb(128, 124, 124)24;
+}
+
+.links-footer a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin-left: 115px;
+    line-height: 40px;
+    color: rgb(98, 97, 97);
+}
+
+.link-l1 {
+    margin-left: -115px;
+}
+
+.lang-btn {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    margin-top: 50px;
+}
+
+.captcha-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: rgb(132, 128, 128);
+    margin-bottom: 225px;
+}
+
+.credits {
+    background-color: white;
+    margin: -140px;
+    padding: 25px;
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
